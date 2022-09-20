@@ -359,7 +359,14 @@ bullhead:/data/local/tmp #
 
 `frida-server`即可运行成功。
 
-此时在电脑上新开一个`shell`，运行`frida-ps -U`命令，即可显示手机中正在运行的进程。
+pc端安装frida
+此时在电脑上新开一个`shell
+```
+$ pip3 install frida
+$ pip3 install frida-tools
+```
+
+运行`frida-ps -U`命令，即可显示手机中正在运行的进程。
 
 ```
 $ frida-ps -U
